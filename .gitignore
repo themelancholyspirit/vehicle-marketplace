@@ -1,3 +1,46 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite cache
+.vite/
+
+# Local env files
+.env.local
+.env.*.local
+
+# Build output
+dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm/
+
+# Temporary folders
+tmp/
+temp/
+
+# Tailwind CSS build files
+tailwind.config.js
+postcss.config.js
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 # Logs
 logs
 *.log
