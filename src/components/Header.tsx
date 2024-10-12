@@ -60,7 +60,7 @@ export default function Header() {
           <ul className="flex flex-wrap justify-between text-sm">
             {["Customs", "VIN Check", "Dealers", "New Auto Dealerships", "Auction", "Auto Parts", "Catalogue", "Title transfer"].map((item) => (
               <li key={item} className="mb-2 md:mb-0">
-                <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">
+                <a href="#" className="text-gray-600 hover:text-red-600 transition-colors px-3 py-2 rounded-full hover:bg-gray-200">
                   {item}
                 </a>
               </li>
